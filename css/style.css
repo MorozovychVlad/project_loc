@@ -1,0 +1,158 @@
+body {background-color: #EFF0F3!important;}
+
+.container {
+    margin-top: 50px;
+    width: 25%!important;
+}
+
+form {
+    background-color: #2FCC9A;
+    border: 2px solid #228e6c;
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin: 5%;
+
+}
+
+#name {
+    width: 90%;
+    float: none;
+    margin-right: 5%;
+    padding: 20px 10px;
+}
+
+#pass {
+    width: 90%;
+    float: none;
+    margin-right: 5%;
+}
+
+#email {
+    width: 90%;
+    float: none;
+    margin-right: 5%;
+}
+
+#date {
+    width: 60%;
+    float: none;
+    margin: 5%;
+}
+
+#bio {
+    width: 90%;
+    height: 100px;
+    float: none;
+    margin: 5%;
+
+}
+ul {
+    padding: 0px 10px!important;
+}
+
+ul li {
+    list-style: none;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #fcfcfc;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+ul li:hover{
+    background: #e5e5e5;
+}
+
+ul li button{
+    border: 0;
+    padding: 10px 20px;
+    color: white;
+    font-size: 13px;
+    background: #db5757;
+    position: absolute; /* Фіксоване розташування кнопки праворуч */
+    right: 30%; /* Відстань від правого краю */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul li button:hover{
+    background: #a04141;
+}
+
+/* Основні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1001;
+}
+.popup h2 {
+    margin-top: 0;
+}
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+.popup input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+.popup button {
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.popup button:hover {
+    background: #0056b3;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+
+#logOut {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+#logOut:hover {
+    background-color: #0056b3;
+}
