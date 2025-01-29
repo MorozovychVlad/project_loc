@@ -37,6 +37,8 @@ form {
     width: 60%;
     float: none;
     margin: 5%;
+    cursor: pointer;
+
 }
 
 #bio {
@@ -44,7 +46,15 @@ form {
     height: 100px;
     float: none;
     margin: 5%;
-
+    /* Додаємо необхідні властивості */
+    text-align: left; /* Вирівнюємо текст по лівому краю */
+    vertical-align: top; /* Вирівнюємо текст по верхньому краю */
+    white-space: pre-wrap; /* Автоматичне перенесення рядків і врахування пробілів */
+    word-wrap: break-word; /* Дозволяє переносити довгі слова */
+    overflow-wrap: break-word; /* Альтернативний спосіб перенесення довгих слів */
+    resize: none; /* Забороняємо зміну розміру */
+    padding: 5px; /* Додаємо відступи для зручності */
+    line-height: 1.5; /* Покращує читабельність */
 }
 ul {
     padding: 0px 10px!important;
@@ -139,7 +149,7 @@ body {
     cursor: pointer;
 }
 
-#logOut {
+#ButtonLogIn {
     position: absolute;
     top: 15px;
     right: 20px;
@@ -153,6 +163,24 @@ body {
 
 }
 
-#logOut:hover {
+#ButtonLogIn:hover {
+    background-color: #0056b3;
+}
+
+#ButtonLogOut {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #cd3e3e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+
+#ButtonLogOut:hover {
     background-color: #0056b3;
 }
